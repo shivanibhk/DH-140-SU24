@@ -1,4 +1,5 @@
 # DH 140 Final Project
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/shivanibhk/DH-140-SU24/tree/main/HEAD)
 
 ---
 
