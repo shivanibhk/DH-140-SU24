@@ -7,6 +7,7 @@
 - [Data Visualizations of Interest](#data-visualizations-of-interest)
 - [Datasets and Ideas of Interest](#datasets-and-ideas-of-interest)
 - [About Me](#about-me)
+<br>
 
 ## Data Visualizations of Interest
 
