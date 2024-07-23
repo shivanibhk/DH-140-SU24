@@ -13,7 +13,7 @@
 
 1. The article ["Connecting music and big data"](https://news.umich.edu/connecting-music-and-big-data/) explains how data science is being used to bridge the gap between language and music. It talks about projects that create tools to generate musical interpretations of texts based on their content & emotional tone, offering new ways to experience and interact with literature and other forms of written content.
 2. Here's a network graph of how different individuals are related in Game of Thrones. ![Game of Thrones Family](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fdist.neo4j.com%2Fwp-content%2Fuploads%2Fexample-viz.png&f=1&nofb=1&ipt=fd895b293f78d7be4786129a718ec061c08b8beb819cd57f3f300b3a8e3d9e8e&ipo=images)
-   Game of Thrones is one of my favorite series and I've always been fascinated by the intricate story line. I like network graphs because they're very relevant to computer science and can reveal interesting relationships between topics.
+   Game of Thrones is one of my favorite series and I've always been fascinated by the intricate story line. Network graphs reveal interesting relationships between topics and is something I will likely pursue and incorportate in this final project.
   
 
 ## Datasets and Ideas of Interest
