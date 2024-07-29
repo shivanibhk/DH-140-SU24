@@ -1,6 +1,4 @@
-scikit-learn
-matplotlib
-gensim
-nltk
-google-colab
-pandas
+scikit-learn==1.3.0
+matplotlib==3.7.2
+nltk==3.8.1
+pandas==2.2.2
