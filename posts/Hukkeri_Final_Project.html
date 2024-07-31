@@ -200,9 +200,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 
-<section id="brilliant-minds" class="level1">
-<h1>Brilliant Minds</h1>
-<p>Shivani Hukkeri<br> August 2, 2024</p>
 <section id="introduction" class="level2">
 <h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
 <hr>
@@ -212,7 +209,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <section id="methods" class="level2">
 <h2 class="anchored" data-anchor-id="methods">Methods</h2>
 <hr>
-<div id="cell-5" class="cell" data-outputid="e9edbcf5-4bd8-41bb-c35c-70bed20ce73a" data-execution_count="1">
+<div id="cell-4" class="cell" data-outputid="e9edbcf5-4bd8-41bb-c35c-70bed20ce73a" data-execution_count="1">
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># import os</span></span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="co"># from google.colab import drive</span></span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="co"># drive.mount('/content/drive')</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
@@ -220,24 +217,24 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <pre><code>Drive already mounted at /content/drive; to attempt to forcibly remount, call drive.mount("/content/drive", force_remount=True).</code></pre>
 </div>
 </div>
-<div id="cell-6" class="cell" data-execution_count="2">
+<div id="cell-5" class="cell" data-execution_count="2">
 <div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># import sys</span></span>
 <span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="co"># sys.path.append('/content/drive/My Drive/Colab-Notebooks/DH140/')</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<div id="cell-7" class="cell" data-execution_count="3">
+<div id="cell-6" class="cell" data-execution_count="3">
 <div class="sourceCode cell-code" id="cb4"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
 <span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
 <span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> seaborn <span class="im">as</span> sns</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<div id="cell-8" class="cell" data-execution_count="4">
+<div id="cell-7" class="cell" data-execution_count="4">
 <div class="sourceCode cell-code" id="cb5"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co"># load dataset in Google</span></span>
 <span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="co"># df = pd.read_csv('/content/drive/MyDrive/Colab-Notebooks/DH140/intelligent_people.csv')</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<div id="cell-9" class="cell" data-execution_count="5">
+<div id="cell-8" class="cell" data-execution_count="5">
 <div class="sourceCode cell-code" id="cb6"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="co"># load dataset locally</span></span>
 <span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>df <span class="op">=</span> pd.read_csv(<span class="st">'intelligent_people.csv'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<div id="cell-10" class="cell" data-outputid="a89b0053-78e7-4ce5-e45d-3b6db675b286" data-execution_count="6">
+<div id="cell-9" class="cell" data-outputid="a89b0053-78e7-4ce5-e45d-3b6db675b286" data-execution_count="6">
 <div class="sourceCode cell-code" id="cb7"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>df.head() <span class="co"># view the top 5 rows</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display" data-execution_count="6">
 
@@ -543,7 +540,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </div>
 </div>
 </div>
-<div id="cell-11" class="cell" data-outputid="b55a4c88-7d6f-4a68-efe7-d125b737af33" data-execution_count="7">
+<div id="cell-10" class="cell" data-outputid="b55a4c88-7d6f-4a68-efe7-d125b737af33" data-execution_count="7">
 <div class="sourceCode cell-code" id="cb8"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>df.columns</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display" data-execution_count="7">
 <pre><code>Index(['Name', 'Country', 'Field of Expertise', 'IQ', 'Achievements',
@@ -552,7 +549,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       dtype='object')</code></pre>
 </div>
 </div>
-<div id="cell-12" class="cell" data-outputid="61ba13b6-e0bf-4b97-85ab-aff2738874c3" data-execution_count="8">
+<div id="cell-11" class="cell" data-outputid="61ba13b6-e0bf-4b97-85ab-aff2738874c3" data-execution_count="8">
 <div class="sourceCode cell-code" id="cb10"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>df.info()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>&lt;class 'pandas.core.frame.DataFrame'&gt;
@@ -575,7 +572,7 @@ dtypes: int64(2), object(9)
 memory usage: 429.8+ KB</code></pre>
 </div>
 </div>
-<div id="cell-13" class="cell" data-outputid="067460d5-201a-46c2-e25c-248453f43a91" data-execution_count="9">
+<div id="cell-12" class="cell" data-outputid="067460d5-201a-46c2-e25c-248453f43a91" data-execution_count="9">
 <div class="sourceCode cell-code" id="cb12"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="co"># df.describe(include='all') # summary info abt categorical data</span></span>
 <span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a>df.describe()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display" data-execution_count="9">
@@ -843,7 +840,7 @@ memory usage: 429.8+ KB</code></pre>
   </div>
 </div>
 </div>
-<div id="cell-14" class="cell" data-outputid="d576abda-2db7-48fb-ed42-f406a96a6426" data-execution_count="10">
+<div id="cell-13" class="cell" data-outputid="d576abda-2db7-48fb-ed42-f406a96a6426" data-execution_count="10">
 <div class="sourceCode cell-code" id="cb13"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a>df[<span class="st">'IQ'</span>].plot(kind<span class="op">=</span><span class="st">'hist'</span>, bins<span class="op">=</span><span class="dv">50</span>, edgecolor<span class="op">=</span><span class="st">'black'</span>, linewidth<span class="op">=</span><span class="fl">1.2</span>)</span>
 <span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">'Fig 1. Distribution of IQ Scores'</span>)</span>
 <span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">'IQ Score'</span>)</span>
@@ -857,7 +854,7 @@ memory usage: 429.8+ KB</code></pre>
 </div>
 </div>
 </div>
-<div id="cell-15" class="cell" data-outputid="47f31e42-7994-46f3-e6f1-a1c8e0b6eab9" data-execution_count="11">
+<div id="cell-14" class="cell" data-outputid="47f31e42-7994-46f3-e6f1-a1c8e0b6eab9" data-execution_count="11">
 <div class="sourceCode cell-code" id="cb14"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a>df[<span class="st">'Birth Year'</span>].plot(kind<span class="op">=</span><span class="st">'hist'</span>, bins<span class="op">=</span><span class="dv">50</span>, edgecolor<span class="op">=</span><span class="st">'black'</span>, linewidth<span class="op">=</span><span class="fl">1.2</span>)</span>
 <span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">'Fig 2. Distribution of Birth Years'</span>)</span>
 <span id="cb14-3"><a href="#cb14-3" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">'Birth Year'</span>)</span>
@@ -871,7 +868,7 @@ memory usage: 429.8+ KB</code></pre>
 </div>
 </div>
 </div>
-<div id="cell-16" class="cell" data-outputid="b2ad27bb-a1fb-4310-8c63-f217a88ad629" data-execution_count="12">
+<div id="cell-15" class="cell" data-outputid="b2ad27bb-a1fb-4310-8c63-f217a88ad629" data-execution_count="12">
 <div class="sourceCode cell-code" id="cb15"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a>gender_counts <span class="op">=</span> df[<span class="st">'Gender'</span>].value_counts()</span>
 <span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a>gender_counts.plot(kind<span class="op">=</span><span class="st">'bar'</span>, color<span class="op">=</span>[<span class="st">'skyblue'</span>, <span class="st">'lightpink'</span>])</span>
 <span id="cb15-3"><a href="#cb15-3" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">'Fig 3. Gender Distribution'</span>)</span>
@@ -886,7 +883,7 @@ memory usage: 429.8+ KB</code></pre>
 </div>
 </div>
 </div>
-<div id="cell-17" class="cell" data-outputid="36ef8d2a-4842-4672-91b4-123ea81a84a5" data-execution_count="13">
+<div id="cell-16" class="cell" data-outputid="36ef8d2a-4842-4672-91b4-123ea81a84a5" data-execution_count="13">
 <div class="sourceCode cell-code" id="cb16"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a>df[<span class="st">"Country"</span>].value_counts()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display" data-execution_count="13">
 <table class="dataframe caption-top table table-sm table-striped small" data-quarto-postprocess="true" data-border="1">
@@ -934,7 +931,7 @@ memory usage: 429.8+ KB</code></pre>
 <br><label><b>dtype:</b> int64</label>
 </div>
 </div>
-<div id="cell-18" class="cell" data-outputid="5d58c3ec-3061-4861-e396-b85e795142f3" data-execution_count="14">
+<div id="cell-17" class="cell" data-outputid="5d58c3ec-3061-4861-e396-b85e795142f3" data-execution_count="14">
 <div class="sourceCode cell-code" id="cb17"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a>country_counts <span class="op">=</span> df[<span class="st">'Country'</span>].value_counts()</span>
 <span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a>plt.bar(country_counts.index, country_counts.values)</span>
 <span id="cb17-3"><a href="#cb17-3" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">"Fig 4. Distributions Across Country"</span>)</span>
@@ -949,7 +946,7 @@ memory usage: 429.8+ KB</code></pre>
 </div>
 </div>
 </div>
-<div id="cell-19" class="cell" data-outputid="9a61980e-11c0-4300-bbac-bbdf48085901" data-execution_count="15">
+<div id="cell-18" class="cell" data-outputid="9a61980e-11c0-4300-bbac-bbdf48085901" data-execution_count="15">
 <div class="sourceCode cell-code" id="cb18"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a>field_of_expertise <span class="op">=</span> df.groupby(by<span class="op">=</span><span class="st">"Field of Expertise"</span>).mean(numeric_only<span class="op">=</span><span class="va">True</span>)</span>
 <span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a>field_of_expertise</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display" data-execution_count="15">
@@ -1269,7 +1266,7 @@ memory usage: 429.8+ KB</code></pre>
   </div>
 </div>
 </div>
-<div id="cell-20" class="cell" data-outputid="d4bcff3d-7d16-4060-dc78-13de05a0b3d2" data-execution_count="16">
+<div id="cell-19" class="cell" data-outputid="d4bcff3d-7d16-4060-dc78-13de05a0b3d2" data-execution_count="16">
 <div class="sourceCode cell-code" id="cb19"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a>field_of_expertise[<span class="st">'Birth Year'</span>].plot(kind<span class="op">=</span><span class="st">'line'</span>, figsize<span class="op">=</span>(<span class="dv">8</span>, <span class="dv">4</span>), title<span class="op">=</span><span class="st">'Fig 5.1. Mean Birth Year'</span>)</span>
 <span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display">
@@ -1280,7 +1277,7 @@ memory usage: 429.8+ KB</code></pre>
 </div>
 </div>
 </div>
-<div id="cell-21" class="cell" data-outputid="54a3ce28-d32d-4a31-df5a-12c489f9d052" data-execution_count="17">
+<div id="cell-20" class="cell" data-outputid="54a3ce28-d32d-4a31-df5a-12c489f9d052" data-execution_count="17">
 <div class="sourceCode cell-code" id="cb20"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a>field_of_expertise[<span class="st">'IQ'</span>].plot(kind<span class="op">=</span><span class="st">'line'</span>, figsize<span class="op">=</span>(<span class="dv">8</span>, <span class="dv">4</span>), title<span class="op">=</span><span class="st">'Fig 5.2. Mean IQ'</span>)</span>
 <span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display">
@@ -1291,7 +1288,7 @@ memory usage: 429.8+ KB</code></pre>
 </div>
 </div>
 </div>
-<div id="cell-22" class="cell" data-outputid="92275f85-14d8-455c-d34b-3f184fdfa59b" data-execution_count="18">
+<div id="cell-21" class="cell" data-outputid="92275f85-14d8-455c-d34b-3f184fdfa59b" data-execution_count="18">
 <div class="sourceCode cell-code" id="cb21"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a>sns.boxplot(y<span class="op">=</span><span class="st">"IQ"</span>, x<span class="op">=</span><span class="st">"Gender"</span>, data<span class="op">=</span>df)</span>
 <span id="cb21-2"><a href="#cb21-2" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">"Fig 6. IQ Distribution Between Genders"</span>)</span>
 <span id="cb21-3"><a href="#cb21-3" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
@@ -1308,7 +1305,7 @@ memory usage: 429.8+ KB</code></pre>
 <section id="results" class="level2">
 <h2 class="anchored" data-anchor-id="results">Results</h2>
 <hr>
-<div id="cell-25" class="cell" data-outputid="86641310-0c93-48bf-cda1-c2d45a0b21d7" data-execution_count="19">
+<div id="cell-24" class="cell" data-outputid="86641310-0c93-48bf-cda1-c2d45a0b21d7" data-execution_count="19">
 <div class="sourceCode cell-code" id="cb22"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(df[<span class="st">"Achievements"</span>].unique())</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>['Father of Computer Science' 'Theory of Evolution' 'Quantum Mechanics'
@@ -1321,7 +1318,7 @@ memory usage: 429.8+ KB</code></pre>
  'Electromagnetic Theory']</code></pre>
 </div>
 </div>
-<div id="cell-26" class="cell" data-outputid="e412f605-2ea2-4f3f-c471-e1cd74262759" data-execution_count="20">
+<div id="cell-25" class="cell" data-outputid="e412f605-2ea2-4f3f-c471-e1cd74262759" data-execution_count="20">
 <div class="sourceCode cell-code" id="cb24"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a>achievements_count <span class="op">=</span> df[<span class="st">"Achievements"</span>].value_counts()</span>
 <span id="cb24-2"><a href="#cb24-2" aria-hidden="true" tabindex="-1"></a>achievements_count</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display" data-execution_count="20">
@@ -1418,7 +1415,7 @@ memory usage: 429.8+ KB</code></pre>
 <br><label><b>dtype:</b> int64</label>
 </div>
 </div>
-<div id="cell-27" class="cell" data-outputid="4649be75-ed34-4720-9dc7-1150904a6e91" data-execution_count="21">
+<div id="cell-26" class="cell" data-outputid="4649be75-ed34-4720-9dc7-1150904a6e91" data-execution_count="21">
 <div class="sourceCode cell-code" id="cb25"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize <span class="op">=</span> (<span class="dv">12</span>,<span class="dv">6</span>))</span>
 <span id="cb25-2"><a href="#cb25-2" aria-hidden="true" tabindex="-1"></a>plt.bar(achievements_count.index[:<span class="dv">10</span>], achievements_count[:<span class="dv">10</span>])</span>
 <span id="cb25-3"><a href="#cb25-3" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">"Fig 7. Top 10 Achievements"</span>, fontsize<span class="op">=</span><span class="dv">16</span>)</span>
@@ -1434,7 +1431,7 @@ memory usage: 429.8+ KB</code></pre>
 </div>
 </div>
 </div>
-<div id="cell-28" class="cell" data-outputid="7f05306f-1359-45b9-ff48-6c8b727bdd37" data-execution_count="22">
+<div id="cell-27" class="cell" data-outputid="7f05306f-1359-45b9-ff48-6c8b727bdd37" data-execution_count="22">
 <div class="sourceCode cell-code" id="cb26"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(df[<span class="st">"Notable Works"</span>].unique())</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>['E=mc²' 'Bohr Model' 'Cosmos' 'Discovery of Electromagnetic Induction'
@@ -1447,7 +1444,7 @@ memory usage: 429.8+ KB</code></pre>
  'Fermi Paradox' 'Notes on the Analytical Engine']</code></pre>
 </div>
 </div>
-<div id="cell-29" class="cell" data-outputid="a7ae6cd2-1adc-4667-8e96-2aa9824b2f05" data-execution_count="23">
+<div id="cell-28" class="cell" data-outputid="a7ae6cd2-1adc-4667-8e96-2aa9824b2f05" data-execution_count="23">
 <div class="sourceCode cell-code" id="cb28"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb28-1"><a href="#cb28-1" aria-hidden="true" tabindex="-1"></a>notable_works_count <span class="op">=</span> df[<span class="st">"Notable Works"</span>].value_counts()</span>
 <span id="cb28-2"><a href="#cb28-2" aria-hidden="true" tabindex="-1"></a>notable_works_count</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display" data-execution_count="23">
@@ -1548,10 +1545,10 @@ memory usage: 429.8+ KB</code></pre>
 <br><label><b>dtype:</b> int64</label>
 </div>
 </div>
-<div id="cell-30" class="cell" data-execution_count="24">
+<div id="cell-29" class="cell" data-execution_count="24">
 <div class="sourceCode cell-code" id="cb29"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb29-1"><a href="#cb29-1" aria-hidden="true" tabindex="-1"></a><span class="co"># df.loc[df['Notable Works'] == "E=mc²"]</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<div id="cell-31" class="cell" data-outputid="3144fc2b-add7-4bef-a392-663d2badf9bc" data-execution_count="25">
+<div id="cell-30" class="cell" data-outputid="3144fc2b-add7-4bef-a392-663d2badf9bc" data-execution_count="25">
 <div class="sourceCode cell-code" id="cb30"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb30-1"><a href="#cb30-1" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize <span class="op">=</span> (<span class="dv">12</span>,<span class="dv">6</span>))</span>
 <span id="cb30-2"><a href="#cb30-2" aria-hidden="true" tabindex="-1"></a>plt.bar(notable_works_count.index[:<span class="dv">10</span>], notable_works_count[:<span class="dv">10</span>])</span>
 <span id="cb30-3"><a href="#cb30-3" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">"Fig 8. Top 10 Notable Works"</span>, fontsize<span class="op">=</span><span class="dv">16</span>)</span>
@@ -1567,7 +1564,7 @@ memory usage: 429.8+ KB</code></pre>
 </div>
 </div>
 </div>
-<div id="cell-32" class="cell" data-outputid="989e21a5-7485-4165-c50e-328ceb6c69ca" data-execution_count="26">
+<div id="cell-31" class="cell" data-outputid="989e21a5-7485-4165-c50e-328ceb6c69ca" data-execution_count="26">
 <div class="sourceCode cell-code" id="cb31"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb31-1"><a href="#cb31-1" aria-hidden="true" tabindex="-1"></a><span class="co"># define the bin edges for 20-year intervals</span></span>
 <span id="cb31-2"><a href="#cb31-2" aria-hidden="true" tabindex="-1"></a>bins <span class="op">=</span> <span class="bu">range</span>(<span class="dv">1900</span>, <span class="dv">2000</span>, <span class="dv">20</span>)</span>
 <span id="cb31-3"><a href="#cb31-3" aria-hidden="true" tabindex="-1"></a>labels <span class="op">=</span> [<span class="ss">f"</span><span class="sc">{</span>year<span class="sc">}</span><span class="ss">-</span><span class="sc">{</span>year<span class="op">+</span><span class="dv">20</span><span class="sc">}</span><span class="ss">"</span> <span class="cf">for</span> year <span class="kw">in</span> bins[:<span class="op">-</span><span class="dv">1</span>]]</span>
@@ -1604,11 +1601,11 @@ memory usage: 429.8+ KB</code></pre>
 </div>
 </div>
 </div>
-<div id="cell-33" class="cell" data-execution_count="27">
+<div id="cell-32" class="cell" data-execution_count="27">
 <div class="sourceCode cell-code" id="cb32"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb32-1"><a href="#cb32-1" aria-hidden="true" tabindex="-1"></a><span class="co"># filtered_df = df[(df['Birth Year'] &gt;= 1900) &amp; (df['Birth Year'] &lt; 1920) &amp; (df['Notable Works'] == "Dirac Equation")]</span></span>
 <span id="cb32-2"><a href="#cb32-2" aria-hidden="true" tabindex="-1"></a><span class="co"># filtered_df</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<div id="cell-34" class="cell" data-outputid="354f1a8c-e0e0-4b2a-c9ce-60ce2e007bde" data-execution_count="28">
+<div id="cell-33" class="cell" data-outputid="354f1a8c-e0e0-4b2a-c9ce-60ce2e007bde" data-execution_count="28">
 <div class="sourceCode cell-code" id="cb33"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb33-1"><a href="#cb33-1" aria-hidden="true" tabindex="-1"></a>education_count <span class="op">=</span> df[<span class="st">"Education"</span>].value_counts()</span>
 <span id="cb33-2"><a href="#cb33-2" aria-hidden="true" tabindex="-1"></a>education_count</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display" data-execution_count="28">
@@ -1665,7 +1662,7 @@ memory usage: 429.8+ KB</code></pre>
 <br><label><b>dtype:</b> int64</label>
 </div>
 </div>
-<div id="cell-35" class="cell" data-outputid="d3808194-f0df-4dc2-fc80-33422b109c77" data-execution_count="29">
+<div id="cell-34" class="cell" data-outputid="d3808194-f0df-4dc2-fc80-33422b109c77" data-execution_count="29">
 <div class="sourceCode cell-code" id="cb34"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb34-1"><a href="#cb34-1" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize <span class="op">=</span> (<span class="dv">10</span>,<span class="dv">6</span>))</span>
 <span id="cb34-2"><a href="#cb34-2" aria-hidden="true" tabindex="-1"></a>plt.bar(education_count.index, education_count)</span>
 <span id="cb34-3"><a href="#cb34-3" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">"Fig 10. Education"</span>, fontsize<span class="op">=</span><span class="dv">16</span>)</span>
@@ -1681,7 +1678,7 @@ memory usage: 429.8+ KB</code></pre>
 </div>
 </div>
 </div>
-<div id="cell-36" class="cell" data-outputid="804e6814-f5e1-4e8b-987d-9a18ba183da6" data-execution_count="30">
+<div id="cell-35" class="cell" data-outputid="804e6814-f5e1-4e8b-987d-9a18ba183da6" data-execution_count="30">
 <div class="sourceCode cell-code" id="cb35"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb35-1"><a href="#cb35-1" aria-hidden="true" tabindex="-1"></a>influence_count <span class="op">=</span> df[<span class="st">"Influence"</span>].value_counts()</span>
 <span id="cb35-2"><a href="#cb35-2" aria-hidden="true" tabindex="-1"></a>influence_count</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display" data-execution_count="30">
@@ -1778,7 +1775,7 @@ memory usage: 429.8+ KB</code></pre>
 <br><label><b>dtype:</b> int64</label>
 </div>
 </div>
-<div id="cell-37" class="cell" data-outputid="56340c44-05e3-4c31-f3d4-716ea31ba763" data-execution_count="31">
+<div id="cell-36" class="cell" data-outputid="56340c44-05e3-4c31-f3d4-716ea31ba763" data-execution_count="31">
 <div class="sourceCode cell-code" id="cb36"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb36-1"><a href="#cb36-1" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize <span class="op">=</span> (<span class="dv">10</span>,<span class="dv">6</span>))</span>
 <span id="cb36-2"><a href="#cb36-2" aria-hidden="true" tabindex="-1"></a>plt.bar(influence_count.index[:<span class="dv">10</span>], influence_count[:<span class="dv">10</span>])</span>
 <span id="cb36-3"><a href="#cb36-3" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">"Fig 11. Top 10 Ares of Influence"</span>, fontsize<span class="op">=</span><span class="dv">16</span>)</span>
@@ -1794,7 +1791,7 @@ memory usage: 429.8+ KB</code></pre>
 </div>
 </div>
 </div>
-<div id="cell-38" class="cell" data-outputid="dbc4bef4-27f3-4b40-9a18-82ca63495fb4" data-execution_count="32">
+<div id="cell-37" class="cell" data-outputid="dbc4bef4-27f3-4b40-9a18-82ca63495fb4" data-execution_count="32">
 <div class="sourceCode cell-code" id="cb37"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb37-1"><a href="#cb37-1" aria-hidden="true" tabindex="-1"></a>awards_count <span class="op">=</span> df[<span class="st">"Awards"</span>].value_counts()</span>
 <span id="cb37-2"><a href="#cb37-2" aria-hidden="true" tabindex="-1"></a>awards_count</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display" data-execution_count="32">
@@ -1843,7 +1840,7 @@ memory usage: 429.8+ KB</code></pre>
 <br><label><b>dtype:</b> int64</label>
 </div>
 </div>
-<div id="cell-39" class="cell" data-outputid="ef751e45-c397-4f44-9589-3894dd80b659" data-execution_count="33">
+<div id="cell-38" class="cell" data-outputid="ef751e45-c397-4f44-9589-3894dd80b659" data-execution_count="33">
 <div class="sourceCode cell-code" id="cb38"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb38-1"><a href="#cb38-1" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize <span class="op">=</span> (<span class="dv">10</span>,<span class="dv">6</span>))</span>
 <span id="cb38-2"><a href="#cb38-2" aria-hidden="true" tabindex="-1"></a>plt.bar(awards_count.index, awards_count)</span>
 <span id="cb38-3"><a href="#cb38-3" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">"Fig 12. Top Awards"</span>, fontsize<span class="op">=</span><span class="dv">16</span>)</span>
@@ -1859,7 +1856,7 @@ memory usage: 429.8+ KB</code></pre>
 </div>
 </div>
 </div>
-<div id="cell-40" class="cell" data-outputid="00558141-fdee-4679-e752-7bf7c2a23e25" data-execution_count="34">
+<div id="cell-39" class="cell" data-outputid="00558141-fdee-4679-e752-7bf7c2a23e25" data-execution_count="34">
 <div class="sourceCode cell-code" id="cb39"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb39-1"><a href="#cb39-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> nltk</span>
 <span id="cb39-2"><a href="#cb39-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> nltk.tokenize <span class="im">import</span> word_tokenize</span>
 <span id="cb39-3"><a href="#cb39-3" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> nltk.corpus <span class="im">import</span> stopwords</span>
@@ -1882,7 +1879,7 @@ memory usage: 429.8+ KB</code></pre>
 [nltk_data]   Package stopwords is already up-to-date!</code></pre>
 </div>
 </div>
-<div id="cell-41" class="cell" data-outputid="db66193f-3a8d-46c8-9e38-a8c043d1bb47" data-execution_count="35">
+<div id="cell-40" class="cell" data-outputid="db66193f-3a8d-46c8-9e38-a8c043d1bb47" data-execution_count="35">
 <div class="sourceCode cell-code" id="cb41"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb41-1"><a href="#cb41-1" aria-hidden="true" tabindex="-1"></a>notable_works_count</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display" data-execution_count="35">
 <table class="dataframe caption-top table table-sm table-striped small" data-quarto-postprocess="true" data-border="1">
@@ -1982,7 +1979,7 @@ memory usage: 429.8+ KB</code></pre>
 <br><label><b>dtype:</b> int64</label>
 </div>
 </div>
-<div id="cell-42" class="cell" data-outputid="6875e3a1-a94d-47df-a477-a8f8258fd395" data-execution_count="36">
+<div id="cell-41" class="cell" data-outputid="6875e3a1-a94d-47df-a477-a8f8258fd395" data-execution_count="36">
 <div class="sourceCode cell-code" id="cb42"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb42-1"><a href="#cb42-1" aria-hidden="true" tabindex="-1"></a>all_words <span class="op">=</span> <span class="st">' '</span>.join(df[<span class="st">'Notable Works'</span>])</span>
 <span id="cb42-2"><a href="#cb42-2" aria-hidden="true" tabindex="-1"></a>tokens <span class="op">=</span> word_tokenize(all_words)</span>
 <span id="cb42-3"><a href="#cb42-3" aria-hidden="true" tabindex="-1"></a>filtered_tokens <span class="op">=</span> [word <span class="cf">for</span> word <span class="kw">in</span> tokens <span class="cf">if</span> word.isalpha()]</span>
@@ -2012,7 +2009,7 @@ memory usage: 429.8+ KB</code></pre>
  ('Vitruvian', 248)]</code></pre>
 </div>
 </div>
-<div id="cell-43" class="cell" data-outputid="fb19f7aa-bfea-42e7-e5f8-b08d0aca3b6a" data-execution_count="37">
+<div id="cell-42" class="cell" data-outputid="fb19f7aa-bfea-42e7-e5f8-b08d0aca3b6a" data-execution_count="37">
 <div class="sourceCode cell-code" id="cb44"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb44-1"><a href="#cb44-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.preprocessing <span class="im">import</span> StandardScaler</span>
 <span id="cb44-2"><a href="#cb44-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.cluster <span class="im">import</span> KMeans</span>
 <span id="cb44-3"><a href="#cb44-3" aria-hidden="true" tabindex="-1"></a></span>
@@ -2290,7 +2287,7 @@ memory usage: 429.8+ KB</code></pre>
   </div>
 </div>
 </div>
-<div id="cell-44" class="cell" data-outputid="90af5e9e-a19a-4fe6-92a9-d70491f3b731" data-execution_count="38">
+<div id="cell-43" class="cell" data-outputid="90af5e9e-a19a-4fe6-92a9-d70491f3b731" data-execution_count="38">
 <div class="sourceCode cell-code" id="cb45"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb45-1"><a href="#cb45-1" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">10</span>, <span class="dv">6</span>))</span>
 <span id="cb45-2"><a href="#cb45-2" aria-hidden="true" tabindex="-1"></a>plt.scatter(features[<span class="st">'IQ'</span>], features[<span class="st">'Birth Year'</span>], c<span class="op">=</span>features[<span class="st">'Cluster'</span>], cmap<span class="op">=</span><span class="st">'viridis'</span>, marker<span class="op">=</span><span class="st">'o'</span>)</span>
 <span id="cb45-3"><a href="#cb45-3" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">'IQ'</span>)</span>
@@ -2306,7 +2303,7 @@ memory usage: 429.8+ KB</code></pre>
 </div>
 </div>
 </div>
-<div id="cell-45" class="cell" data-outputid="aa2d294f-9414-46c0-fb8a-2e57e3fa4ad3" data-execution_count="39">
+<div id="cell-44" class="cell" data-outputid="aa2d294f-9414-46c0-fb8a-2e57e3fa4ad3" data-execution_count="39">
 <div class="sourceCode cell-code" id="cb46"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb46-1"><a href="#cb46-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.model_selection <span class="im">import</span> train_test_split</span>
 <span id="cb46-2"><a href="#cb46-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.ensemble <span class="im">import</span> RandomForestClassifier</span>
 <span id="cb46-3"><a href="#cb46-3" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.metrics <span class="im">import</span> classification_report</span>
@@ -2343,7 +2340,7 @@ weighted avg       0.25      0.29      0.27      1500
 </code></pre>
 </div>
 </div>
-<div id="cell-46" class="cell" data-execution_count="40">
+<div id="cell-45" class="cell" data-execution_count="40">
 <div class="sourceCode cell-code" id="cb48"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb48-1"><a href="#cb48-1" aria-hidden="true" tabindex="-1"></a>education_mapping <span class="op">=</span> {</span>
 <span id="cb48-2"><a href="#cb48-2" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Ph.D. in Physics"</span>: <span class="dv">1</span>,</span>
 <span id="cb48-3"><a href="#cb48-3" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Ph.D. in Mathematics"</span>: <span class="dv">2</span>,</span>
@@ -2358,7 +2355,7 @@ weighted avg       0.25      0.29      0.27      1500
 <span id="cb48-12"><a href="#cb48-12" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb48-13"><a href="#cb48-13" aria-hidden="true" tabindex="-1"></a>df[<span class="st">'Education_Numeric'</span>] <span class="op">=</span> df[<span class="st">'Education'</span>].<span class="bu">map</span>(education_mapping)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<div id="cell-47" class="cell" data-outputid="241bdf52-4bb7-4d97-8d85-4dba1e6fccb3" data-execution_count="41">
+<div id="cell-46" class="cell" data-outputid="241bdf52-4bb7-4d97-8d85-4dba1e6fccb3" data-execution_count="41">
 <div class="sourceCode cell-code" id="cb49"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb49-1"><a href="#cb49-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.model_selection <span class="im">import</span> train_test_split</span>
 <span id="cb49-2"><a href="#cb49-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.linear_model <span class="im">import</span> LinearRegression</span>
 <span id="cb49-3"><a href="#cb49-3" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.metrics <span class="im">import</span> mean_squared_error</span>
@@ -2402,7 +2399,6 @@ weighted avg       0.25      0.29      0.27      1500
 <p><a href="https://www.kaggle.com/datasets/waqi786/top-intelligent-people-in-the-world/data">“Top Intelligent People in the World”</a> dataset link <br> <br> Chown, Marcus. “‘The Most Magical Equation in Physics’: How Paul Dirac Accidentally Revealed the Strange World of Antimatter.” LiveScience, Future US Inc, 5 Aug.&nbsp;2023, <a href="https://www.livescience.com/physics-mathematics/quantum-physics/pretty-mathematics-how-paul-dirac-found-his-famous-equation">www.livescience.com/physics-mathematics/quantum-physics/pretty-mathematics-how-paul-dirac-found-his-famous-equation</a>. <br> <br> Prawer, Steven. “A Brief History of Quantum.” Pursuit by the University of Melbourne, The University of Melbourne, 3 Oct.&nbsp;2018, <a href="https://pursuit.unimelb.edu.au/articles/a-brief-history-of-quantum">pursuit.unimelb.edu.au/articles/a-brief-history-of-quantum</a>. <br> <br> Rees, Martin. “How Astronomers Revolutionized Our View of the Cosmos.” Scientific American, A Division of Springer Nature America, Inc, 1 Sept.&nbsp;2020, <a href="https://www.scientificamerican.com/article/how-astronomers-revolutionized-our-view-of-the-cosmos/">www.scientificamerican.com/article/how-astronomers-revolutionized-our-view-of-the-cosmos/</a>.</p>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->
